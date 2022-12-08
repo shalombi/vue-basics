@@ -1,0 +1,173 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+/* show-time.cmp */
+.show-time-cmp {
+    cursor: pointer;
+}
+
+.dark {
+    background-color: rgb(113, 113, 113);
+
+}
+
+.notDark {
+    background-color: lightseagreen;
+}
+
+.morning-img {
+    max-width: 400px;
+    border-radius: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 12px;
+    /* width: 50%; */
+}
+
+.seasonIcon {
+    font-size: 30px;
+    padding: 20px;
+}
+
+.heder-season-cmp {
+    color: whitesmoke;
+}
+
+/* count-down.cmp */
+
+.count-down-cmp {
+    background-color: #ff9100;
+
+}
+
+.red {
+    color: red
+}
+
+
+/* who-watch-cmp */
+.watcher-details-cmp {
+    background: gainsboro;
+    /* background-image: url("../imgs/morning.jpeg"); */
+    background-image: url("../imgs/watchers/netflix_.jpeg");
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+
+
+.who-watch-cmp {
+    background-color: rgb(68, 68, 68);
+}
+
+
+.watcher-name {
+    font-size: 20px;
+}
+
+.fav-shows-header {
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+    /* color: rgb(217, 207, 207); */
+}
+
+.hero-img-netflix {
+    max-width: 400px;
+}
+
+.watcher-header {
+    color: azure;
+}
+
+.watchers-list ul {
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+    gap: 10px;
+    padding: 10px;
+    list-style-type: none;
+}
+
+
+.watchers-list ul li {
+    display: grid;
+    background-color: rgb(226, 226, 226);
+    padding: 10px;
+    cursor: pointer;
+}
+
+.watchers-list ul li button {
+    justify-self: end;
+}
+
+.watcher-img {
+    max-width: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 12px;
+    padding: 6px;
+
+}
+
+/* watcher-details-cmp */
+
+.img-netflix-details {
+    max-width: 150px;
+    border-radius: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fav-shows,
+.fav-show,
+.fav-shows li,
+.watcher-name,
+.fav-shows-header {
+    color: rgb(248, 247, 238);
+    background-color: rgb(31, 31, 31);
+    font-size: 22px;
+}
+
+.fav-shows {
+    padding: 6px;
+    margin-bottom: 12px;
+}
+
+.fav-show {
+    padding: 6px;
+}
+
+.fav-shows li {
+    text-align: center;
+}
+
+
+.flex {
+    display: flex;
+}
+
+.flex-column {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.back-btn {
+    padding: 8px;
+    background-color: #010101;
+    font-size: 18px;
+    margin-top: 20px;
+    border-radius: 9px;
+    color: rgb(243, 236, 236);
+    margin-bottom: 20px;
+    cursor: pointer;
+}
