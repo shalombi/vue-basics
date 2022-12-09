@@ -3,6 +3,10 @@ body {
     text-align: center;
 }
 
+button {
+    cursor: pointer;
+}
+
 /* show-time.cmp */
 .show-time-cmp {
     cursor: pointer;
