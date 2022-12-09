@@ -75,7 +75,7 @@ export default {
             const watcher = {
                 id,
                 name: `watcher-${id}`,
-                imgUrl: "../../imgs/watchers/muki.jpeg",
+                imgUrl: Math.random() > 0.5 ? "../../imgs/watchers/muki.jpeg" : "../../imgs/watchers/ruki.jpeg",
                 favShows: ['Stranger Things', 'Indiana Jones', 'James Bond 007'],
                 isCreatedByUser: true
 
